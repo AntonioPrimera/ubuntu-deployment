@@ -8,10 +8,10 @@ curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/maste
 curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/master/project-setup.sh
 curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/master/setup-laravel.sh
 
-chmod +x create-user.sh
-chmod +x install-all.sh
-chomd +x project-setup.sh
-chmod +x setup-laravel.sh
+#chmod +x create-user.sh
+sudo chmod +x install-all.sh
+sudo chmod +x project-setup.sh
+sudo chmod +x setup-laravel.sh
 
 echo "All scripts were downloaded in the ~/setup folder. You can run the following commands to setup the server"
 echo ""

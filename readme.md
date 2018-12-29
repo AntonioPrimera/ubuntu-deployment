@@ -18,4 +18,30 @@ ssh [username]@[ip]
 
 Run the following command to download all the setup scripts and make them executable:
 
-`curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/master/install-all.sh`
+`curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/master/init.sh`
+
+Make the init script executable:
+
+`sudo chmod +x init.sh`
+
+Now run the init script:
+
+`./init.sh`
+
+**Install PHP, NGINX and MYSQL**
+
+From the folder `~/setup/` run `./install-all.sh`
+
+**Setup a project**
+
+From the folder `~/setup/` run `./project-setup.sh`
+
+**Optionally setup a Laravel Project after it was pushed here**
+
+From the folder `~/setup/` run `./project-setup.sh`
+
+Delete the init script and the setup directory:
+
+`rm ~/init.sh`
+
+`rm -R ~/setup`
