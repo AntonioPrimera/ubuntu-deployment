@@ -19,5 +19,7 @@ success "User ${username} is now set up with sudo privileges"
 answer="n"
 askYN "Do you want to move the setup scripts to the new user's home folder?" answer
 if [[ ${answer} = "y" ]]
-	then ${DIR}/move-to-user-home.sh ${username}
+	then
+		${DIR}/move-to-user-home.sh ${username}
+		success "The scripts were moved to /home/${username}/setup. Please exit, login as the new user and run: ~/setup/setup.sh"
 fi

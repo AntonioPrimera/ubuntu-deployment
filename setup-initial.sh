@@ -48,22 +48,21 @@ done
 # Initialize global variables
 answer=""
 
-#
-if [[ ${setupUser} = "yes" ]]
-	then
-		askYN "Do you want to setup a new user?" answer
-		if [[ $answer = "y" ]]
-			then
-				# Create a new user and move the setup scripts to the new user's home folder
-				${DIR}/scripts/create-user.sh
-		fi
-fi
-
 if [[ ${setupFirewall} = "yes" ]]
 	then
 		askYN "Do you want to setup the UFW firewall?" answer
-		if [[ $answer = "y" ]]
+		if [[ ${answer} = "y" ]]
 			# Setup the firewall while we have root privileges
 			then ${DIR}/scripts/setup-firewall.sh
+		fi
+fi
+
+if [[ ${setupUser} = "yes" ]]
+	then
+		askYN "Do you want to setup a new user?" answer
+		if [[ ${answer} = "y" ]]
+			then
+				# Create a new user and move the setup scripts to the new user's home folder
+				${DIR}/scripts/create-user.sh
 		fi
 fi

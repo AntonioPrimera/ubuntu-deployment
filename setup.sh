@@ -7,7 +7,7 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 
 # Run the initial setup (user + firewall) - pass all arguments of the current script to the setup script
 #./setup-initial.sh "$@"
-${DIR}/setup-initial.sh "$@"
+#${DIR}/setup-initial.sh "$@"
 
 # Install all necessary packages
 ${DIR}/setup-packages.sh
