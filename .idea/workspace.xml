@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create-user.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup-initial.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-initial.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/move-to-user-home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/move-to-user-home.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/create-user.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="129" lean-forward="true" selection-start-line="23" selection-start-column="129" selection-end-line="23" selection-end-column="129" />
+            <state relative-caret-position="126">
+              <caret line="6" lean-forward="true" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/move-to-user-home.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="189">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -104,10 +102,10 @@
         <option value="$PROJECT_DIR$/setup-project.sh" />
         <option value="$PROJECT_DIR$/scripts/functions.sh" />
         <option value="$PROJECT_DIR$/setup-initial.sh" />
-        <option value="$PROJECT_DIR$/scripts/move-to-user-home.sh" />
         <option value="$PROJECT_DIR$/setup.sh" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/scripts/create-user.sh" />
+        <option value="$PROJECT_DIR$/scripts/move-to-user-home.sh" />
       </list>
     </option>
   </component>
@@ -180,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546008015894</updated>
-      <workItem from="1546008017139" duration="54480000" />
+      <workItem from="1546008017139" duration="54621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54480000" />
+    <option name="totallyTimeSpent" value="54621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -370,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/move-to-user-home.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -389,8 +380,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/create-user.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="129" lean-forward="true" selection-start-line="23" selection-start-column="129" selection-end-line="23" selection-end-column="129" />
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/move-to-user-home.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
