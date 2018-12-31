@@ -1,47 +1,11 @@
-**Setup a new VPS**
+# Setup a new VPS
 
-Run as root the following command to setup a new sudo user and enable the ufw firewall:
+After you have set up a new VPS Server, log in via ssh:
+`ssh root@[ip]`
 
-`curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/master/create-user.sh && chmod +x create-user.sh && ./create-user.sh`
+**Run the following command:**
 
-now remove the script:
+`curl -O https://github.com/AntonioPrimera/ubuntu-deployment/setup.tar && tar -xf setup.tar && chmod -R +x setup && ./setup/setup.sh`
 
-`rm create-user.sh`
+This command downloads the setup scripts, unpacks the scripts and runs the setup script.
 
-and exit the server:
-
-`exit`
-
-Now login back to the server with the newly created user:
-
-ssh [username]@[ip]
-
-Run the following command to download all the setup scripts and make them executable:
-
-`curl -O https://raw.githubusercontent.com/AntonioPrimera/ubuntu-deployment/master/init.sh`
-
-Make the init script executable:
-
-`sudo chmod +x init.sh`
-
-Now run the init script:
-
-`./init.sh`
-
-**Install PHP, NGINX and MYSQL**
-
-From the folder `~/setup/` run `./install-all.sh`
-
-**Setup a project**
-
-From the folder `~/setup/` run `./project-setup.sh`
-
-**Optionally setup a Laravel Project after it was pushed here**
-
-From the folder `~/setup/` run `./project-setup.sh`
-
-Delete the init script and the setup directory:
-
-`rm ~/init.sh`
-
-`rm -R ~/setup`
