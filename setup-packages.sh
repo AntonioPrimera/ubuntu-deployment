@@ -14,10 +14,14 @@ info "APT-GET was updated"
 
 
 # === Install NGINX ===================================================================================================
+answer="n"
 
 if [[ $(checkPackageIsInstalled "nginx") = "no" ]]
 	then
-		${DIR}/scripts/install-nginx.sh
+		askYN "NGINX is not installed. Do you want to install NGINX?" answer
+		if [[ ${answer} = "y" ]]
+			then ${DIR}/scripts/install-nginx.sh
+		fi
 	else
 		info "NGINX is already installed. No action is necessary. If you want to force re-installation of nginx run: ./scripts/install-nginx.sh"
 fi
@@ -27,7 +31,10 @@ fi
 
 if [[ $(checkPackageIsInstalled "php7.2-fpm") = "no" ]]
 	then
-		${DIR}/scripts/install-php.sh
+		askYN "PHP 7.2 is not installed. Do you want to install PHP 7.2?" answer
+		if [[ ${answer} = "y" ]]
+			then ${DIR}/scripts/install-php.sh
+		fi
 	else
 		info "PHP 7.2 is already installed. No action is necessary. If you want to force re-installation of PHP 7.2 run: ./scripts/install-php.sh"
 fi
@@ -37,7 +44,10 @@ fi
 
 if [[ $(checkPackageIsInstalled "mysql-server") = "no" ]]
 	then
-		${DIR}/scripts/install-mysql.sh
+		askYN "MYSQL Server is not installed. Do you want to install MYSQL Server?" answer
+		if [[ ${answer} = "y" ]]
+			then ${DIR}/scripts/install-mysql.sh
+		fi
 	else
 		info "MYSQL Server is already installed. No action is necessary. If you want to force re-installation of MYSQL Server run: ./scripts/install-mysql.sh"
 fi
@@ -46,7 +56,10 @@ fi
 
 if [[ $(checkPackageIsInstalled "nodejs") = "no" ]]
 	then
-		${DIR}/scripts/install-nodejs.sh
+		askYN "NodeJs is not installed. Do you want to install NodeJs?" answer
+		if [[ ${answer} = "y" ]]
+			then ${DIR}/scripts/install-nodejs.sh
+		fi
 	else
 		info "NodeJs is already installed. No action is necessary. If you want to force re-installation of NodeJs run: ./scripts/install-nodejs.sh"
 fi
