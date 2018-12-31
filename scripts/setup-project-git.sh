@@ -27,9 +27,9 @@ success "Git folder ${gitFolder} was created"
 
 # Setup the post-receive hook
 txt="#!/bin/sh"
-echo ${txt} >> ${gitFolder}/hooks/post-receive
+echo ${txt} | sudo tee ${gitFolder}/hooks/post-receive
 txt="git --work-tree=/var/www/${projectName} --git-dir=${gitFolder} checkout -f"
-echo ${txt} >> ${gitFolder}/hooks/post-receive
+echo ${txt} | sudo tee -a ${gitFolder}/hooks/post-receive
 
 sudo chmod +x ${gitFolder}/hooks/post-receive
 
