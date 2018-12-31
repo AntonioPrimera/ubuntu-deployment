@@ -26,7 +26,7 @@ if [[ $(checkPackageIsInstalled "nodejs") = "yes" ]]
 		askYN "Do you want to install Yarn?" answer
 		if [[ ${answer} = "y" ]]
 			then
-				./install-yarn.sh
+				${DIR}/install-yarn.sh
 		fi
 
 		askYN "Do you want to install PM2?" answer

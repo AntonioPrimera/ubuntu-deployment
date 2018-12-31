@@ -5,6 +5,13 @@ DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/scripts/functions.sh"
 
+answer="n"
+askYN "Do you want to setup a new Laravel project? (Project files should already be on the server in a folder in /var/www/)" answer
+
+if [[ ${answer} != "y" ]]
+	then
+		exit 4
+fi
 
 # === Determine the project folder and the owner ======================================================================
 
