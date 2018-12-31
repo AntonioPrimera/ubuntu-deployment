@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OLD/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/setup-scripts.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/create-user.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/functions.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-composer.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-mysql.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-nginx.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-nodejs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-php.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-yarn.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/move-to-user-home.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/setup-firewall.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/setup-project-git.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/setup-project-nginx.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup-initial.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup-packages.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup-project.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/create-user.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install-all.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/project-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/create-user.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/functions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/functions.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/install-composer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-composer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/install-mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-mysql.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/install-nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-nginx.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/install-nodejs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-nodejs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/install-php.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-php.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/install-yarn.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-yarn.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/move-to-user-home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/move-to-user-home.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/setup-firewall.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/setup-firewall.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/setup-project-git.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/setup-project-git.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/setup-project-nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/setup-project-nginx.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/setup-initial.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-initial.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/setup-laravel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-laravel.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/setup-packages.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-packages.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/setup-project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-project.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup-laravel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-laravel.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +31,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="231">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="147">
+                <caret line="7" column="116" selection-start-line="7" selection-start-column="116" selection-end-line="7" selection-end-column="116" />
               </first_editor>
               <second_editor />
             </state>
@@ -58,13 +52,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup-packages.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="407">
               <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/setup/setup-initial.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -103,7 +102,6 @@
         <option value="$PROJECT_DIR$/setup-scripts.sh" />
         <option value="$PROJECT_DIR$/scripts/create-user.sh" />
         <option value="$PROJECT_DIR$/scripts/move-to-user-home.sh" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/install-all.sh" />
         <option value="$PROJECT_DIR$/OLD/setup-scripts.sh" />
         <option value="$PROJECT_DIR$/scripts/install-composer.sh" />
@@ -120,6 +118,7 @@
         <option value="$PROJECT_DIR$/scripts/install-yarn.sh" />
         <option value="$PROJECT_DIR$/scripts/install-nodejs.sh" />
         <option value="$PROJECT_DIR$/setup-packages.sh" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -143,6 +142,11 @@
               <item name="ubuntu-deployment" type="b2602c69:ProjectViewProjectNode" />
               <item name="ubuntu-deployment" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ubuntu-deployment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ubuntu-deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,9 +161,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/setup" />
       <recent name="$PROJECT_DIR$/OLD" />
     </key>
   </component>
@@ -185,15 +191,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546008015894</updated>
-      <workItem from="1546008017139" duration="47989000" />
+      <workItem from="1546008017139" duration="48503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47989000" />
+    <option name="totallyTimeSpent" value="48503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18168813" />
@@ -329,16 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup-initial.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -392,6 +389,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/setup/setup-initial.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="7" column="116" selection-start-line="7" selection-start-column="116" selection-end-line="7" selection-end-column="116" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

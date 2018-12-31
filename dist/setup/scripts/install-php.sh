@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. ./functions.sh
+. functions.sh
 
 # === PHP 7.2 Installation ============================================================================================
 
@@ -17,7 +17,7 @@ if [[ $(checkPackageIsInstalled "php7.2-fpm") == "yes" ]]
 	then
 		if [[ ! -f "/usr/local/bin/composer" ]]
 			then
-				./install-composer.sh
+				install-composer.sh
 			else
 				info "Composer is already installed. No action is necessary. If you want to force re-install composer run: ./scripts/install-composer.sh"
 		fi

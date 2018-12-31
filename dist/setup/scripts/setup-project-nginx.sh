@@ -6,7 +6,7 @@
 #	$1 - the project folder name
 #######################################################################################################################
 
-. ./functions.sh
+. functions.sh
 
 folderName=$1
 createNginxSite ${folderName}

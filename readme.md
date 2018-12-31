@@ -5,7 +5,7 @@ After you have set up a new VPS Server, log in via ssh:
 
 **Run the following command:**
 
-`curl -O https://github.com/AntonioPrimera/ubuntu-deployment/setup.tar && tar -xf setup.tar && chmod -R +x setup && ./setup/setup.sh`
+`curl -O https://github.com/AntonioPrimera/ubuntu-deployment/dist/setup.tar && tar -xf setup.tar && rm setup.tar && chmod -R +x setup && ./setup/setup.sh`
 
 This command downloads the setup scripts, unpacks the scripts and runs the setup script.
 

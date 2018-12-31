@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. ./scripts/functions.sh
+. scripts/functions.sh
 
 # === Determine the project folder and the owner ======================================================================
 

@@ -11,7 +11,7 @@
 # 	This script expects no arguments.
 #######################################################################################################################
 
-. ./functions.sh
+. functions.sh
 
 # Check that NodeJs is already installed correctly (prerequisite for Yarn)
 if [[ $(checkPackageIsInstalled "nodejs") = "yes" ]]

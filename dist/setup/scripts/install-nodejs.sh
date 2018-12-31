@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. ./functions.sh
+. functions.sh
 
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -21,7 +21,7 @@ if [[ $(checkPackageIsInstalled "nodejs") = "yes" ]]
 		askYN "Do you want to install Yarn?" answer
 		if [[ ${answer} = "y" ]]
 			then
-				./install-yarn.sh
+				install-yarn.sh
 		fi
 
 		askYN "Do you want to install PM2?" answer

@@ -12,7 +12,7 @@
 # the firewall if the current user is the root
 #######################################################################################################################
 
-. ./scripts/functions.sh
+. scripts/functions.sh
 
 # === Evaluate the context and the provided options ===================================================================
 
@@ -50,7 +50,7 @@ if [[ ${setupUser} = "yes" ]]
 		askYN "Do you want to setup a new user?" answer
 		if [[ ${answer} = "y" ]]
 			# Create a new user and move the setup scripts to the new user's home folder
-			then ./scripts/create-user.sh
+			then scripts/create-user.sh
 		fi
 fi
 
@@ -59,6 +59,6 @@ if [[ ${setupFirewall} = "yes" ]]
 		askYN "Do you want to setup the UFW firewall?" answer
 		if [[ ${answer} = "y" ]]
 			# Setup the firewall while we have root privileges
-			then ./scripts/setup-firewall.sh
+			then scripts/setup-firewall.sh
 		fi
 fi
