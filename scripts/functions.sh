@@ -118,7 +118,7 @@ enableNginxSite() {
 			sudo nginx -t
 
 			local restart="n"
-			askYN "Do you want to restart nginx for the changes to take effect? (y/n)" restart
+			askYN "Do you want to restart nginx for the changes to take effect?" restart
 			if [[ ${restart} = "y" ]]
 				then
 					sudo systemctl reload nginx

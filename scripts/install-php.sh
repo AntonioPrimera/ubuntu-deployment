@@ -20,7 +20,7 @@ if [[ $(checkPackageIsInstalled "php7.2-fpm") == "yes" ]]
 	then
 		if [[ ! -f "/usr/local/bin/composer" ]]
 			then
-				./install-composer.sh
+				${DIR}/install-composer.sh
 			else
 				info "Composer is already installed. No action is necessary. If you want to force re-install composer run: ./scripts/install-composer.sh"
 		fi
