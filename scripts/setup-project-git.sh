@@ -20,8 +20,8 @@ info "Setting up the git repository..."
 projectName=$1
 ownerName=$2
 gitFolder="/var/repo/${projectName}.git"
-sudo chown -R ${ownerName} ${gitFolder}
 sudo git init --bare ${gitFolder}
+sudo chown -R ${ownerName} ${gitFolder}
 
 success "Git folder ${gitFolder} was created"
 
