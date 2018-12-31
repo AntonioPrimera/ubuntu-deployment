@@ -25,18 +25,22 @@ NC='\033[0m' # No Color
 
 info() {
 	echo -e "${LBLUE}$1${NC}"
+	echo ""
 }
 
 success() {
 	echo -e "${LGREEN}$1${NC}"
+	echo ""
 }
 
 error() {
 	echo -e "${LRED}$1${NC}"
+	echo ""
 }
 
 warn() {
 	echo -e "${YELLOW}$1${NC}"
+	echo ""
 }
 
 ask() {

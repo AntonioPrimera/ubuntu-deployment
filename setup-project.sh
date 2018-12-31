@@ -23,8 +23,8 @@ if [[ ${answer} = "y" ]]
 
 		folderName=""
 		userName=""
-		ask "Project folder: " foldername
-		ask "User name: " username
+		ask "Project folder: " folderName
+		ask "User name: " userName
 
 		sudo mkdir -p /var/www/${folderName}
 		sudo chown ${userName} /var/www/${folderName}
