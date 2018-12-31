@@ -17,7 +17,7 @@ info "APT-GET was updated"
 
 if [[ $(checkPackageIsInstalled "nginx") = "no" ]]
 	then
-		./scripts/install-nginx.sh
+		${DIR}/scripts/install-nginx.sh
 	else
 		info "NGINX is already installed. No action is necessary. If you want to force re-installation of nginx run: ./scripts/install-nginx.sh"
 fi
@@ -27,7 +27,7 @@ fi
 
 if [[ $(checkPackageIsInstalled "php7.2-fpm") = "no" ]]
 	then
-		./scripts/install-php.sh
+		${DIR}/scripts/install-php.sh
 	else
 		info "PHP 7.2 is already installed. No action is necessary. If you want to force re-installation of PHP 7.2 run: ./scripts/install-php.sh"
 fi
@@ -37,7 +37,7 @@ fi
 
 if [[ $(checkPackageIsInstalled "mysql-server") = "no" ]]
 	then
-		./scripts/install-mysql.sh
+		${DIR}/scripts/install-mysql.sh
 	else
 		info "MYSQL Server is already installed. No action is necessary. If you want to force re-installation of MYSQL Server run: ./scripts/install-mysql.sh"
 fi
@@ -46,7 +46,7 @@ fi
 
 if [[ $(checkPackageIsInstalled "nodejs") = "no" ]]
 	then
-		./scripts/install-nodejs.sh
+		${DIR}/scripts/install-nodejs.sh
 	else
 		info "NodeJs is already installed. No action is necessary. If you want to force re-installation of NodeJs run: ./scripts/install-nodejs.sh"
 fi

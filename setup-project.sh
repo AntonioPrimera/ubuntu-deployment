@@ -37,7 +37,7 @@ if [[ ${answer} = "y" ]]
 		askYN "Do you want to setup a new git repository for your project?" answer
 		if [[ ${answer} = "y" ]]
 			then
-				./scripts/setup-project-git.sh ${folderName} ${userName}
+				${DIR}/scripts/setup-project-git.sh ${folderName} ${userName}
 		fi
 
 
@@ -46,7 +46,7 @@ if [[ ${answer} = "y" ]]
 		askYN "Do you want to setup a new nginx config file for this project?" answer
 		if [[ ${answer} = "y" ]]
 			then
-				./scripts/setup-project-nginx.sh ${folderName}
+				${DIR}/scripts/setup-project-nginx.sh ${folderName}
 		fi
 fi
 

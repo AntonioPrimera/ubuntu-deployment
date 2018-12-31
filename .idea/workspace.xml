@@ -3,21 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create-user.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-composer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-composer.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-mysql.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-nginx.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-nodejs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-nodejs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-php.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-php.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-yarn.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-yarn.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/setup-firewall.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/setup-firewall.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/setup-project-git.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/setup-project-git.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/setup-project-nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/setup-project-nginx.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup-initial.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-initial.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup-laravel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-laravel.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup-packages.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-packages.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup-project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-project.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,15 +19,15 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="63">
-                <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <first_editor relative-caret-position="147">
+                <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="255" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -51,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup-packages.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="407">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup-laravel.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="-517">
               <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
@@ -69,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup-initial.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="428">
+              <caret line="56" column="23" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup-project.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="608">
+              <caret line="48" column="67" lean-forward="true" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -104,7 +92,6 @@
         <option value="$PROJECT_DIR$/install-all.sh" />
         <option value="$PROJECT_DIR$/OLD/setup-scripts.sh" />
         <option value="$PROJECT_DIR$/scripts/functions.sh" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/scripts/create-user.sh" />
         <option value="$PROJECT_DIR$/scripts/install-composer.sh" />
         <option value="$PROJECT_DIR$/scripts/install-mysql.sh" />
@@ -115,11 +102,12 @@
         <option value="$PROJECT_DIR$/scripts/setup-firewall.sh" />
         <option value="$PROJECT_DIR$/scripts/setup-project-git.sh" />
         <option value="$PROJECT_DIR$/scripts/setup-project-nginx.sh" />
-        <option value="$PROJECT_DIR$/setup-project.sh" />
-        <option value="$PROJECT_DIR$/setup-packages.sh" />
         <option value="$PROJECT_DIR$/setup-laravel.sh" />
-        <option value="$PROJECT_DIR$/setup-initial.sh" />
         <option value="$PROJECT_DIR$/setup.sh" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/setup-initial.sh" />
+        <option value="$PROJECT_DIR$/setup-packages.sh" />
+        <option value="$PROJECT_DIR$/setup-project.sh" />
       </list>
     </option>
   </component>
@@ -192,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546008015894</updated>
-      <workItem from="1546008017139" duration="50502000" />
+      <workItem from="1546008017139" duration="51023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50502000" />
+    <option name="totallyTimeSpent" value="51023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -276,16 +264,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/setup/setup-initial.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="63">
-            <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/functions.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -371,31 +349,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup-project.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup-packages.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup-laravel.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup-initial.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="255" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -403,6 +363,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup-initial.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup-laravel.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup-packages.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup-project.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="48" column="67" lean-forward="true" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
         </state>
       </provider>
     </entry>
