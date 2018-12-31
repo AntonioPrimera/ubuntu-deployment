@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-. ./functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/functions.sh"
 
 # === PHP 7.2 Installation ============================================================================================
 

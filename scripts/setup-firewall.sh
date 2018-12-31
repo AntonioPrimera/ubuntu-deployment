@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
-. ./functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/functions.sh"
 
-# === Firewall Setup ==========================================
+# === Firewall Setup ==================================================================================================
 
 info "*** Setting up the UFW Firewall ***"
 

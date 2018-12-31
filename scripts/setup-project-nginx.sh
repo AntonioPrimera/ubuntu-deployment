@@ -6,7 +6,12 @@
 #	$1 - the project folder name
 #######################################################################################################################
 
-. ./functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/functions.sh"
+
+# === Setup Nginx Site (wrapper) ======================================================================================
 
 folderName=$1
 createNginxSite ${folderName}

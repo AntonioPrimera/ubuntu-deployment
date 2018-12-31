@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 # Import the utility functions
-. ./functions.sh
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/functions.sh"
 
 # === User Setup ==============================================
 
-info "*** Creating a new user with sudo privileges ***"
+info "Creating a new user with sudo privileges..."
 
 username=""
 ask "Username: " username

@@ -7,7 +7,10 @@
 #	$2 - the user name who will own the repository
 #######################################################################################################################
 
-. ./functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/functions.sh"
 
 # === Git Setup =======================================================================================================
 

@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-. ./scripts/functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/scripts/functions.sh"
+
 
 # === APT-GET Update ==================================================================================================
 

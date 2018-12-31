@@ -11,7 +11,12 @@
 # 	This script expects no arguments.
 #######################################################################################################################
 
-. ./functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/functions.sh"
+
+# === Install Yarn ====================================================================================================
 
 # Check that NodeJs is already installed correctly (prerequisite for Yarn)
 if [[ $(checkPackageIsInstalled "nodejs") = "yes" ]]

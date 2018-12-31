@@ -7,7 +7,11 @@
 #	- creates a new site with NGINX and activates it (on request)
 #######################################################################################################################
 
-. ./scripts/functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/scripts/functions.sh"
+
 
 # === Project Folder Setup ============================================================================================
 

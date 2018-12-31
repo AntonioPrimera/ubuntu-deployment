@@ -12,7 +12,11 @@
 # the firewall if the current user is the root
 #######################################################################################################################
 
-. ./scripts/functions.sh
+# Import the utility functions
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/scripts/functions.sh"
+
 
 # === Evaluate the context and the provided options ===================================================================
 
