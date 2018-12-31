@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create-user.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/move-to-user-home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/move-to-user-home.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/create-user.sh">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="41" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/move-to-user-home.sh">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -76,7 +85,6 @@
         <option value="$PROJECT_DIR$/scipts/create-user.sh" />
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/setup-scripts.sh" />
-        <option value="$PROJECT_DIR$/scripts/move-to-user-home.sh" />
         <option value="$PROJECT_DIR$/install-all.sh" />
         <option value="$PROJECT_DIR$/OLD/setup-scripts.sh" />
         <option value="$PROJECT_DIR$/scripts/install-composer.sh" />
@@ -96,6 +104,7 @@
         <option value="$PROJECT_DIR$/setup-initial.sh" />
         <option value="$PROJECT_DIR$/scripts/functions.sh" />
         <option value="$PROJECT_DIR$/scripts/create-user.sh" />
+        <option value="$PROJECT_DIR$/scripts/move-to-user-home.sh" />
       </list>
     </option>
   </component>
@@ -168,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546008015894</updated>
-      <workItem from="1546008017139" duration="52204000" />
+      <workItem from="1546008017139" duration="53054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52204000" />
+    <option name="totallyTimeSpent" value="53054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -295,13 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/move-to-user-home.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/setup-project-git.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -377,8 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/create-user.sh">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/move-to-user-home.sh">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
