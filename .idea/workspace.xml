@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/create-user.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/functions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/functions.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/install-composer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-composer.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/install-mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-mysql.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/install-nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-nginx.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/install-nodejs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-nodejs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/install-php.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-php.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/install-yarn.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/install-yarn.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/move-to-user-home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/move-to-user-home.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/setup-firewall.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/setup-firewall.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/setup-project-git.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/setup-project-git.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/setup-project-nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/scripts/setup-project-nginx.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setup-initial.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-initial.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setup-laravel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-laravel.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setup-packages.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-packages.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setup-project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup-project.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup/setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +15,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="147">
-                <caret line="7" column="116" selection-start-line="7" selection-start-column="116" selection-end-line="7" selection-end-column="116" />
+                <caret line="7" column="153" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="153" />
               </first_editor>
               <second_editor />
             </state>
@@ -191,16 +170,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546008015894</updated>
-      <workItem from="1546008017139" duration="48503000" />
+      <workItem from="1546008017139" duration="48700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48503000" />
+    <option name="totallyTimeSpent" value="48700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18168813" />
@@ -399,7 +377,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="147">
-            <caret line="7" column="116" selection-start-line="7" selection-start-column="116" selection-end-line="7" selection-end-column="116" />
+            <caret line="7" column="153" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="153" />
           </first_editor>
           <second_editor />
         </state>
