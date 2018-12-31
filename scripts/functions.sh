@@ -49,13 +49,13 @@ ask() {
 }
 
 askYN() {
-	local answer=""
+	local _answer=""
 #	read -n1 -p $'\e[1;33m'"$1 (y/n)"$'\e[0m' answer
 #	echo ""
 	echo -n -e "${YELLOW}$1 (y/n) ${NC}"
-	read -n1 answer
+	read -n1 _answer
 	echo ""
-	eval "$2=${answer}"
+	eval "$2=${_answer}"
 }
 
 # Provide the target folder as the first argument and the name of the script as the second argument
