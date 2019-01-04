@@ -5,7 +5,7 @@ DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/functions.sh"
 
-# === User Setup ==============================================
+# === User Setup ======================================================================================================
 
 info "Creating a new user with sudo privileges..."
 

@@ -67,3 +67,11 @@ if [[ ${answer} = "y" ]]
 		sudo nano .env
 fi
 
+# Let the user edit the env file
+answer="n"
+askYN "Do you want to create a MYSQL Database for your project?" answer
+
+if [[ ${answer} = "y" ]]
+	then
+		${DIR}/scripts/create-database.sh
+fi
