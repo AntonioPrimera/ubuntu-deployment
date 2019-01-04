@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a95922-4671-4557-b938-3ae6f5b6c1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/create-database.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/create-user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create-user.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup-laravel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-laravel.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/create-database.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create-database.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +17,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="294">
-                <caret line="14" column="255" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="255" />
+                <caret line="14" column="235" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="235" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,20 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup-laravel.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
+            <state relative-caret-position="764">
               <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/create-database.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="672">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -107,8 +104,8 @@
         <option value="$PROJECT_DIR$/scripts/functions.sh" />
         <option value="$PROJECT_DIR$/scripts/install-php.sh" />
         <option value="$PROJECT_DIR$/scripts/create-user.sh" />
-        <option value="$PROJECT_DIR$/scripts/create-database.sh" />
         <option value="$PROJECT_DIR$/setup-laravel.sh" />
+        <option value="$PROJECT_DIR$/scripts/create-database.sh" />
       </list>
     </option>
   </component>
@@ -183,17 +180,18 @@
       <updated>1546008015894</updated>
       <workItem from="1546008017139" duration="57792000" />
       <workItem from="1546476576463" duration="1516000" />
+      <workItem from="1546640917076" duration="319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59308000" />
+    <option name="totallyTimeSpent" value="59627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18597998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -323,16 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="14" column="255" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="255" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/install-php.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -354,17 +342,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/create-database.sh">
+    <entry file="file://$PROJECT_DIR$/setup-laravel.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="764">
+          <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup-laravel.sh">
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="294">
+            <caret line="14" column="235" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="235" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/create-database.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        <state relative-caret-position="672">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>

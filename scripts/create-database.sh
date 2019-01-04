@@ -10,22 +10,26 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 info "Creating the MYSQL Database..."
 
 ask "MYSQL-Server Access User: " mysqlUser
-ask "MYSQL-Server Access Password: " mysqlPass
+#ask "MYSQL-Server Access Password: " mysqlPass
 ask "New MYSQL Database Name: " dbName
 ask "New MYSQL User Name: " userName
 ask "New MYSQL User Password: " userPass
 
+#sudo mysql -u${mysqlUser} -e "CREATE DATABASE ${dbName} /*\!40100 DEFAULT CHARACTER SET utf8 */;"
+#sudo mysql -u${mysqlUser} -e "CREATE USER ${userName}@localhost IDENTIFIED WITH mysql_native_password BY '${userPass}';"
+##mysql -u${mysqlUser} -e "CREATE USER ${MAINDB}@localhost IDENTIFIED BY '${PASSWDDB}';"
+#sudo mysql -u${mysqlUser} -e "GRANT ALL PRIVILEGES ON ${dbName}.* TO '${userName}'@'localhost';"
+#sudo mysql -u${mysqlUser} -e "FLUSH PRIVILEGES;"
+
 if [[ ${mysqlPass} = "" ]]
 	then
-		mysql -u${mysqlUser} -e "CREATE DATABASE ${dbName} /*\!40100 DEFAULT CHARACTER SET utf8 */;"
-		mysql -u${mysqlUser} -e "CREATE USER ${userName}@localhost IDENTIFIED WITH mysql_native_password BY '${userPass}';"
-		#mysql -u${mysqlUser} -e "CREATE USER ${MAINDB}@localhost IDENTIFIED BY '${PASSWDDB}';"
-		mysql -u${mysqlUser} -e "GRANT ALL PRIVILEGES ON ${dbName}.* TO '${userName}'@'localhost';"
-		mysql -u${mysqlUser} -e "FLUSH PRIVILEGES;"
+		sudo mysql -u${mysqlUser} -e "CREATE DATABASE ${dbName} /*\!40100 DEFAULT CHARACTER SET utf8 */;"
+		sudo mysql -u${mysqlUser} -e "CREATE USER ${userName}@localhost IDENTIFIED WITH mysql_native_password BY '${userPass}';"
+		sudo mysql -u${mysqlUser} -e "GRANT ALL PRIVILEGES ON ${dbName}.* TO '${userName}'@'localhost';"
+		sudo mysql -u${mysqlUser} -e "FLUSH PRIVILEGES;"
 	else
 		mysql -u${mysqlUser} -p${mysqlPass} -e "CREATE DATABASE ${dbName} /*\!40100 DEFAULT CHARACTER SET utf8 */;"
 		mysql -u${mysqlUser} -p${mysqlPass} -e "CREATE USER ${userName}@localhost IDENTIFIED WITH mysql_native_password BY '${userPass}';"
-		#mysql -u${mysqlUser} -p${mysqlPass} -e "CREATE USER ${MAINDB}@localhost IDENTIFIED BY '${PASSWDDB}';"
 		mysql -u${mysqlUser} -p${mysqlPass} -e "GRANT ALL PRIVILEGES ON ${dbName}.* TO '${userName}'@'localhost';"
 		mysql -u${mysqlUser} -p${mysqlPass} -e "FLUSH PRIVILEGES;"
 fi
