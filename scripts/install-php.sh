@@ -8,7 +8,7 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 # === PHP 7.2 Installation ============================================================================================
 
 info "Installing PHP..."
-sudo apt-get install php7.2-fpm php7.2-common php7.2-json php7.2-mysql php7.2-mbstring php7.2-zip php7.2-xml php7.2-sqlite3
+sudo apt-get install php7.2-fpm php7.2-common php7.2-json php7.2-mysql php7.2-mbstring php7.2-zip php7.2-xml php7.2-sqlite3 php7.2-bcmath
 
 packageInstallationStatus "php7.2-fpm" "PHP 7.2"
 
